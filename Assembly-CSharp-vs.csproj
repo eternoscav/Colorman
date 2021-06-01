@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{047FA2F5-C745-C6AF-F47A-388D6C707628}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\EasyButton.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\EasyJoystick.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\EasyTouch.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\EasyTouchInput.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\Finger.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\Gesture.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\MonoSingleton.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\MovingJoystick.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\VirtualScreen.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+     <Compile Include="Assets\Outros\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+     <Compile Include="Assets\Outros\TransitionsManager\Scripts\RandomizeColor.cs" />
+     <Compile Include="Assets\Outros\TransitionsManager\Scripts\TransitionManager.cs" />
+     <Compile Include="Assets\Outros\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\Outros\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Outros\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Outros\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Scripts\AudioCenaVilao.cs" />
+     <Compile Include="Assets\Scripts\AudioCenaVilao2.cs" />
+     <Compile Include="Assets\Scripts\AudioCenaVilao3.cs" />
+     <Compile Include="Assets\Scripts\AudioVilao.cs" />
+     <Compile Include="Assets\Scripts\Aula1.cs" />
+     <Compile Include="Assets\Scripts\BackToPost.cs" />
+     <Compile Include="Assets\Scripts\BottonLeft.cs" />
+     <Compile Include="Assets\Scripts\BottonMagia.cs" />
+     <Compile Include="Assets\Scripts\BottonRight.cs" />
+     <Compile Include="Assets\Scripts\BottonSpeed.cs" />
+     <Compile Include="Assets\Scripts\BottonUp.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\BulletBlue.cs" />
+     <Compile Include="Assets\Scripts\BulletCaixa.cs" />
+     <Compile Include="Assets\Scripts\BulletColor.cs" />
+     <Compile Include="Assets\Scripts\BulletGreen.cs" />
+     <Compile Include="Assets\Scripts\BulletInimigo.cs" />
+     <Compile Include="Assets\Scripts\BulletOrange.cs" />
+     <Compile Include="Assets\Scripts\BulletPink.cs" />
+     <Compile Include="Assets\Scripts\BulletRed.cs" />
+     <Compile Include="Assets\Scripts\BulletYellow.cs" />
+     <Compile Include="Assets\Scripts\CaixaMovel.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\ChefaoTime.cs" />
+     <Compile Include="Assets\Scripts\CopiarDados.cs" />
+     <Compile Include="Assets\Scripts\CountDown.cs" />
+     <Compile Include="Assets\Scripts\CristaisMoviment.cs" />
+     <Compile Include="Assets\Scripts\DesativaGuiStar.cs" />
+     <Compile Include="Assets\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Scripts\DestroyBulletRed.cs" />
+     <Compile Include="Assets\Scripts\Enter.cs" />
+     <Compile Include="Assets\Scripts\EnterCreditos.cs" />
+     <Compile Include="Assets\Scripts\EnterOver.cs" />
+     <Compile Include="Assets\Scripts\EnterScore.cs" />
+     <Compile Include="Assets\Scripts\GUIScaleExample.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GuardiaoIdle.cs" />
+     <Compile Include="Assets\Scripts\GuiSalvar.cs" />
+     <Compile Include="Assets\Scripts\HabilitarCores.cs" />
+     <Compile Include="Assets\Scripts\HabilitarPlataforma.cs" />
+     <Compile Include="Assets\Scripts\Heroi.cs" />
+     <Compile Include="Assets\Scripts\Heroi2.cs" />
+     <Compile Include="Assets\Scripts\Heroi3.cs" />
+     <Compile Include="Assets\Scripts\Heroi4.cs" />
+     <Compile Include="Assets\Scripts\HeroiIdle.cs" />
+     <Compile Include="Assets\Scripts\HeroiIdle2.cs" />
+     <Compile Include="Assets\Scripts\HeroiIdleAuto.cs" />
+     <Compile Include="Assets\Scripts\HeroiMapa.cs" />
+     <Compile Include="Assets\Scripts\Idle.cs" />
+     <Compile Include="Assets\Scripts\Inimigo.cs" />
+     <Compile Include="Assets\Scripts\InimigoFugir.cs" />
+     <Compile Include="Assets\Scripts\InimigoIdle.cs" />
+     <Compile Include="Assets\Scripts\InimigoKame.cs" />
+     <Compile Include="Assets\Scripts\InimigoVilao.cs" />
+     <Compile Include="Assets\Scripts\InimigoVisao.cs" />
+     <Compile Include="Assets\Scripts\LiberarMagia.cs" />
+     <Compile Include="Assets\Scripts\LigarPoder.cs" />
+     <Compile Include="Assets\Scripts\MagiaInimigo.cs" />
+     <Compile Include="Assets\Scripts\MapTime.cs" />
+     <Compile Include="Assets\Scripts\Mapainicial.cs" />
+     <Compile Include="Assets\Scripts\MovimentInimigo.cs" />
+     <Compile Include="Assets\Scripts\MudarMaterial.cs" />
+     <Compile Include="Assets\Scripts\PlataformMoviment.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SCOREGERAL.cs" />
+     <Compile Include="Assets\Scripts\Sofrendo.cs" />
+     <Compile Include="Assets\Scripts\Spawns.cs" />
+     <Compile Include="Assets\Scripts\Star.cs" />
+     <Compile Include="Assets\Scripts\SumirCrystal.cs" />
+     <Compile Include="Assets\Scripts\TesteRandom.cs" />
+     <Compile Include="Assets\Scripts\TesteRandomManual.cs" />
+     <Compile Include="Assets\Scripts\TocarAudio.cs" />
+     <Compile Include="Assets\Scripts\TriggerCaixa.cs" />
+     <Compile Include="Assets\Scripts\TriggerChave.cs" />
+     <Compile Include="Assets\Scripts\TriggerColisor.cs" />
+     <Compile Include="Assets\Scripts\TriggerCoracao.cs" />
+     <Compile Include="Assets\Scripts\TriggerCrystal.cs" />
+     <Compile Include="Assets\Scripts\TriggerEspinho.cs" />
+     <Compile Include="Assets\Scripts\TriggerEstrela.cs" />
+     <Compile Include="Assets\Scripts\TriggerEstrelaChefao.cs" />
+     <Compile Include="Assets\Scripts\TriggerHeroi.cs" />
+     <Compile Include="Assets\Scripts\TriggerHeroi2.cs" />
+     <Compile Include="Assets\Scripts\TriggerHeroi3.cs" />
+     <Compile Include="Assets\Scripts\TriggerHeroi4.cs" />
+     <Compile Include="Assets\Scripts\TriggerHeroi5.cs" />
+     <Compile Include="Assets\Scripts\TriggerInimigo.cs" />
+     <Compile Include="Assets\Scripts\TriggerLimite.cs" />
+     <Compile Include="Assets\Scripts\TriggerPlataforma.cs" />
+     <Compile Include="Assets\Scripts\TriggerPoder.cs" />
+     <Compile Include="Assets\Scripts\TriggerPorta.cs" />
+     <Compile Include="Assets\Scripts\TriggerPorta2.cs" />
+     <Compile Include="Assets\Scripts\TriggerRadom.cs" />
+     <Compile Include="Assets\Scripts\TriggerSalvar.cs" />
+     <Compile Include="Assets\Scripts\TriggerSpawn.cs" />
+     <Compile Include="Assets\Scripts\TriggerSpawnList.cs" />
+     <Compile Include="Assets\Scripts\TriggerTroca.cs" />
+     <Compile Include="Assets\Scripts\TrocaCor.cs" />
+     <Compile Include="Assets\Scripts\TrocaPoder.cs" />
+     <Compile Include="Assets\Scripts\TrocarStar.cs" />
+     <Compile Include="Assets\Scripts\anime.cs" />
+     <Compile Include="Assets\Scripts\example.cs" />
+     <Compile Include="Assets\Scripts\faceBlue.cs" />
+     <Compile Include="Assets\Scripts\faceCinza.cs" />
+     <Compile Include="Assets\Scripts\faceColor.cs" />
+     <Compile Include="Assets\Scripts\faceColorAbertura.cs" />
+     <Compile Include="Assets\Scripts\faceGreen.cs" />
+     <Compile Include="Assets\Scripts\faceOrange.cs" />
+     <Compile Include="Assets\Scripts\facePink.cs" />
+     <Compile Include="Assets\Scripts\faceRed.cs" />
+     <Compile Include="Assets\Scripts\faceYellow.cs" />
+     <Compile Include="Assets\Scripts\facetroca.cs" />
+     <Compile Include="Assets\Scripts\facetroca2.cs" />
+     <Compile Include="Assets\Scripts\gameover.cs" />
+     <Compile Include="Assets\Scripts\material.cs" />
+     <Compile Include="Assets\Scripts\materialCaixa.cs" />
+     <Compile Include="Assets\Scripts\materialCaixa2.cs" />
+     <Compile Include="Assets\Scripts\materialCaixa3.cs" />
+     <Compile Include="Assets\Scripts\materialEstrela.cs" />
+     <Compile Include="Assets\Scripts\materialPainelBlue.cs" />
+     <Compile Include="Assets\Scripts\materialPainelCaixa.cs" />
+     <Compile Include="Assets\Scripts\materialPainelCaixaBlue.cs" />
+     <Compile Include="Assets\Scripts\materialPainelCaixaGreen.cs" />
+     <Compile Include="Assets\Scripts\materialPainelCaixaOrange.cs" />
+     <Compile Include="Assets\Scripts\materialPainelChefao.cs" />
+     <Compile Include="Assets\Scripts\materialPainelChefaoBlue.cs" />
+     <Compile Include="Assets\Scripts\materialPainelChefaoGreen.cs" />
+     <Compile Include="Assets\Scripts\materialPainelChefaoOrange.cs" />
+     <Compile Include="Assets\Scripts\materialPainelChefaoPink.cs" />
+     <Compile Include="Assets\Scripts\materialPainelChefaoRed.cs" />
+     <Compile Include="Assets\Scripts\materialPainelChefaoYellow.cs" />
+     <Compile Include="Assets\Scripts\materialPainelColor.cs" />
+     <Compile Include="Assets\Scripts\materialPainelGreen.cs" />
+     <Compile Include="Assets\Scripts\materialPainelOrange.cs" />
+     <Compile Include="Assets\Scripts\materialPainelPink.cs" />
+     <Compile Include="Assets\Scripts\materialPainelPlat.cs" />
+     <Compile Include="Assets\Scripts\materialPainelPlatPink.cs" />
+     <Compile Include="Assets\Scripts\materialPainelPlatRed.cs" />
+     <Compile Include="Assets\Scripts\materialPainelRed.cs" />
+     <Compile Include="Assets\Scripts\materialPainelYellow.cs" />
+     <Compile Include="Assets\Scripts\materialPlataforma.cs" />
+     <Compile Include="Assets\Scripts\materialPlataformaChefao.cs" />
+     <Compile Include="Assets\Scripts\rotacaoPainel.cs" />
+     <Compile Include="Assets\Scripts\trocaScript.cs" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Outros\EasyTouch\Readme_first.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Outros\clouds\material\shader\NewShader.shader" />
+     <None Include="Assets\Outros\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Textures\Decal.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Outros\TransitionsManager\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\MirrorReflection.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{C825CFD6-9CF9-CE29-9CFF-A2CEF4134A0A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
